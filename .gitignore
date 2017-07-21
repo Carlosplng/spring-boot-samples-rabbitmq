@@ -1,2 +1,46 @@
+# Created by http://gitignore.io
 
-11
+### Eclipse ###
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+out/
+### Gradle ###
+# Exclude Folder List #
+.gradle/
+build/
+
+
+### logs
+logs/
+
+*.iml
+*.ipr
+*.iws
+.idea/
+/target/
+/src/main/java/com/_main/GenerateToolForUrp.java
+/src/main/java/com/_main/M_API.java
+/src/main/java/com/_main/M_TEST.java
