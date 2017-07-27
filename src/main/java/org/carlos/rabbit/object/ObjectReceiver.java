@@ -11,7 +11,7 @@ public class ObjectReceiver {
 
     @RabbitHandler
     public void process(User user) {
-        System.out.println("Receiver object : " + user);
+        System.out.println("Receiver object : " + user.getName());
     }
 
 }
